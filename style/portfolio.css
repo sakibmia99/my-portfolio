@@ -1,0 +1,229 @@
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+/* shared styles */
+.bg {
+    background-color: #FFF8F3;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.dark-2 {
+    color: #474747;
+}
+
+.btn {
+    background-color: #FD6E0A;
+    font-weight: bold;
+    padding: 16px 30px;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+
+.section-title {
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+
+.section-paragarph {
+    font-size: 18px;
+    color: #757575;
+}
+
+.text-centar {
+    text-align: center;
+}
+
+/* nav styles */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+
+.text-color {
+    color: #FD6E0A;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 51px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* bannner styles */
+
+header {
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+
+}
+
+.banner {
+    display: flex;
+    margin: 0 40px 0 200px;
+    justify-content: space-between;
+}
+
+.banner-contant {
+    max-width: 500px;
+    align-items: center;
+}
+
+.banner-paragraph {
+    color: #474747;
+}
+
+.banner-hi {
+    font-size: 32px;
+    font-family: 200;
+}
+
+.banner-name {
+    font-size: 65px;
+    font-weight: bold;
+}
+
+.banner-img {
+    width: 530px;
+}
+
+/* main styles */
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* about styles */
+.about {
+    border-radius: 10px;
+    padding: 120px 140px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.about-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-description {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* skkils section styles */
+
+.skills-contaner {
+    display: flex;
+    gap: 24px;
+}
+
+.skil {
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.skllis {
+    margin-top: 130px;
+}
+
+.skil-paragraph {
+    color: #757575;
+}
+.skils-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: #181818;
+}
+.resume{
+    margin-top: 130px;
+}
+.resume-contenar{
+    display: flex;
+    gap: 23px;
+    align-items: center;
+    margin-top: 60px;
+}
+.section-title{
+    text-align: center;
+}
+.experience-description , .experience-subtitle {
+    color: #757575;
+}
+.experience-sub{
+    font-size: 20px;
+    font-weight: 600px;
+    margin-bottom: 20px;
+}
+.experience-title{
+    font-size: 23px;
+    font-weight: 700;
+}
+.resume-column-titile{
+    font-size: 25px;
+    font-weight: 900;
+}
+.resume hr{
+margin: 30px 5px;
+}
+.text-centar-resume-download {
+margin-top: 50px;
+}
+
+ .footer-section{
+    display: flex;
+    gap: 100px;
+    padding: 130px 230px ;
+ }
+ footer input[type="text"] , input[type="email"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+ }
+ .footer-title{
+    font-size: 24px;
+    font-weight: 600px;
+ }
+ .footer-deskirption{
+    font-size: 18px;
+    color: #757575;
+ }
+  .icons{
+    margin-right: 20px;
+  }
+  .footer-icon{
+    margin-top: 35px;
+  }
+footer{
+    margin-top: 50px;
+}
