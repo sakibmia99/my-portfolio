@@ -258,12 +258,16 @@ footer {
     .skills-contaner,
     .resume-contenar,
     .footer-section,
-    .about-items {
+    .about-items,
+    .banner,
+    nav,
+    nav ul  {
         flex-direction: column;
         gap: 10px;
     }
 
-    .footer-section, .about {
+    .footer-section,
+    .about {
         padding: 20px;
     }
 
@@ -271,5 +275,22 @@ footer {
     input[type="email"],
     footer textarea {
         width: calc(100% - 30px);
+    }
+
+    .banner-img {
+        width:100%;
+        margin-top:20px ;
+    }
+    .banner ,nav{
+        margin: 20px;
+    }
+    header{
+        background-image: none;
+    }
+    .btn{
+        margin-bottom: 10px;
+    }
+    nav ul {
+
     }
 }
