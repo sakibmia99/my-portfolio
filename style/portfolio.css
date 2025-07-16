@@ -156,52 +156,67 @@ main {
 .skil-paragraph {
     color: #757575;
 }
-.skils-title{
+
+.skils-title {
     font-size: 20px;
     font-weight: bold;
     color: #181818;
 }
-.resume{
+
+.resume {
     margin-top: 130px;
 }
-.resume-contenar{
+
+.resume-contenar {
     display: flex;
     gap: 23px;
     align-items: center;
     margin-top: 60px;
 }
-.section-title{
+
+.section-title {
     text-align: center;
 }
-.experience-description , .experience-subtitle {
+
+.experience-description,
+.experience-subtitle {
     color: #757575;
 }
-.experience-sub{
+
+.experience-sub {
     font-size: 20px;
     font-weight: 600px;
     margin-bottom: 20px;
 }
-.experience-title{
+
+.experience-title {
     font-size: 23px;
     font-weight: 700;
 }
-.resume-column-titile{
+
+.resume-column-titile {
     font-size: 25px;
     font-weight: 900;
 }
-.resume hr{
-margin: 30px 5px;
-}
-.text-centar-resume-download {
-margin-top: 50px;
+
+.resume hr {
+    margin: 30px 5px;
 }
 
- .footer-section{
+.text-centar-resume-download {
+    margin-top: 50px;
+}
+
+/* footer section styles */
+.footer-section {
     display: flex;
     gap: 100px;
-    padding: 130px 230px ;
- }
- footer input[type="text"] , input[type="email"], footer textarea{
+    padding: 130px 230px;
+}
+
+footer input[type="text"],
+input[type="email"],
+footer textarea {
     height: 64px;
     border-radius: 5px;
     background-color: white;
@@ -209,21 +224,52 @@ margin-top: 50px;
     padding: 10px 20px;
     margin-bottom: 24px;
     border: none;
- }
- .footer-title{
+}
+
+.footer-title {
     font-size: 24px;
     font-weight: 600px;
- }
- .footer-deskirption{
+}
+
+.footer-deskirption {
     font-size: 18px;
     color: #757575;
- }
-  .icons{
+}
+
+.icons {
     margin-right: 20px;
-  }
-  .footer-icon{
+}
+
+.footer-icon {
     margin-top: 35px;
-  }
-footer{
+}
+
+footer {
     margin-top: 50px;
+}
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+
+    .skills-contaner,
+    .resume-contenar,
+    .footer-section,
+    .about-items {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer-section, .about {
+        padding: 20px;
+    }
+
+    footer input[type="text"],
+    input[type="email"],
+    footer textarea {
+        width: calc(100% - 30px);
+    }
 }
