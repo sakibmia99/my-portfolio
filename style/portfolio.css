@@ -247,9 +247,7 @@ footer textarea {
 footer {
     margin-top: 50px;
 }
-
-
-
+    
 
 
 
@@ -264,6 +262,21 @@ footer {
     nav ul {
         flex-direction: column;
         gap: 10px;
+    }
+
+    .banner-name {
+        font-size: 30px;
+        
+    }
+
+    .banner-hi {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .banner-hi {
+        font-size: 20px;
+        text-align: center;
     }
 
     .footer-section,
@@ -298,4 +311,23 @@ footer {
     nav ul {
         gap: 20px;
     }
+    .resume-column-titile,
+    .experience-title,
+    .footer-title,
+    .footer-icon,
+    .banner-name,
+    .experience-subtitle,
+    .skils-title,
+    .skil-paragraph{
+       text-align: center;
+    }
+    .jura-btn{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+ 
+
+
 }
