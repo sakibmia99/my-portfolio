@@ -326,6 +326,11 @@ footer {
         flex-direction: column;
         justify-content: center;
     }
+    .skil{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
 
  
 
